@@ -1,6 +1,8 @@
 # Mac cruft
 .DS_Store
 
+db.db3
+
 # Logs
 logs
 *.log
