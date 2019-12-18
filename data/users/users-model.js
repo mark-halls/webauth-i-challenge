@@ -1,6 +1,6 @@
 const Users = require(`../db-config`);
 
-const register = async userData => {
+const add = async userData => {
   try {
     // return await Users(`users`).insert(userData);
 
@@ -22,6 +22,6 @@ const find = (username = undefined) => {
 };
 
 module.exports = {
-  register,
+  add,
   find
 };
